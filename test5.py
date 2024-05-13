@@ -13,7 +13,7 @@ import sqlalchemy
 app = FastAPI()
 
 # Firebase API Key
-API_KEY = "AAAAtcoGVnw:APA91bEIV8dcPAa4cnAyXbCMPp_T6EVqRZ3bsiaKYtY8GKIir2a8J5f2XV9iovAtNsvAe91rjnIif-DRftrboRG99MG337Ts3HFsfg3Yu__xHzbugFZmNG3ymJzeL4zNrnDB3kurHfTI"
+API_KEY = "Your_API_Key"
 
 # Initialize FCMNotification object
 push_service = FCMNotification(API_KEY)
